@@ -1,4 +1,4 @@
-# ml-data-pipeline
+# ML-Data-Pipeline
 This Data Pipeline is created as a part of the course mlops guided by ineuron
 
 This project is intended to showcase how kafka can help in collecting data from source to destination 
@@ -9,5 +9,11 @@ Technologies:
 1. Kafka
 2. MongoDB
 3. Python
+
+
+ [Confluent Kafka Setup](docs/setup-confluent-kafka.md)
+ 
+ [MongoDB Setup](docs/setup-atlas-mongodb.md)
+
 
 
