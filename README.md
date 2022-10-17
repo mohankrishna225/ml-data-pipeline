@@ -8,9 +8,9 @@ We will try to implement a datapipeline which helps in collecting iot data from 
 Technologies:
 1. Kafka
 2. MongoDB
-3. Python
+3. Python3
 
-
+## Docs
  [Confluent Kafka Setup](docs/setup-confluent-kafka.md)
  
  [MongoDB Setup](docs/setup-atlas-mongodb.md)
