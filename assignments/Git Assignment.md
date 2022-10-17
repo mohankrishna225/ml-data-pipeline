@@ -163,7 +163,7 @@ Let's say that we made some changes after cloning the repo, we can push it to a 
 ![merge-pr](merge-pr.png)
 
 
-![merge]merge%20success.png)
+![merge](merge%20success.png)
 
 
 
