@@ -13,7 +13,7 @@ Technologies:
 ## Docs
  [Confluent Kafka Setup](docs/setup-confluent-kafka.md)
  
- [MongoDB Setup](docs/setup-atlas-mongodb.md)
+ [Atlas MongoDB Setup](docs/setup-atlas-mongodb.md)
 
 
 
