@@ -16,4 +16,7 @@ Technologies:
  [MongoDB Setup](docs/setup-atlas-mongodb.md)
 
 
+## Architecture
 
+
+![datapipeline-1](https://user-images.githubusercontent.com/45117258/196206289-809df16a-9c61-4652-89f7-61fae18fbeb3.png)
