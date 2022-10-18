@@ -159,3 +159,44 @@ push will authenticate with our login credentials and upload the locally built i
 this is fastapi container running with base image: python3 and runnign our hello-world api on port number 8000
 
 
+
+FastAPI Example Dockerfile
+
+
+```
+FROM python:3.8
+
+COPY . /src
+
+COPY ./requirements.txt /src/requirements.txt
+
+WORKDIR src
+
+EXPOSE 8000:8000
+
+RUN pip install -r requirements.txt
+
+#CMD [ "python", "app.py" ]
+
+CMD [ "uvicorn", "app:app", "--host", "0.0.0.0", "--reload" ]
+```
+
+
+```
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+
+def read_root():
+
+return { "Hello World": "Welcome to MLOps Training" }
+
+```
+
+Docker Image: mohankrishna225/fastapi:helloworld
+
+
+
+
