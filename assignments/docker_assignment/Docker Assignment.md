@@ -286,4 +286,11 @@ jobs:
 
         run: echo "${{ steps.meta.outputs.tags }}" | xargs -I {} cosign sign {}@${{ steps.build-and-push.outputs.digest }}
 ```
+Since we have specified the docker password as a secret in our workflow it is secure and not visible in the steps as well ! The following steps are triggered after a successful push of code changes to main branch in our repo
+
+![image](https://user-images.githubusercontent.com/45117258/196670012-10dafff8-21a5-499a-bc13-0d2a0d674ea6.png)
+
+
+
+
 
